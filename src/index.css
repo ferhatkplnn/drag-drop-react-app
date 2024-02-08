@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  padding: 2px 8px;
+  font-size: 1.5rem;
+  color: rgb(131, 149, 166);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  color: rgb(176, 202, 226);
+}
+
+.nav a.active {
+  color: rgb(0, 157, 255);
+}
